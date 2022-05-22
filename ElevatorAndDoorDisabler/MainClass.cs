@@ -11,7 +11,7 @@ namespace ElevatorAndDoorDisabler
         public override string Name { get; } = "ElevatorAndDoorDisabler";
         public override string Prefix { get; } = "elevator_and_door_disabler";
         public override Version Version { get; } = new Version(0, 1, 0);
-        public override Version RequiredExiledVersion { get; } = new Version(5, 0, 0);
+        public override Version RequiredExiledVersion { get; } = new Version(5, 2, 1);
 
         public EventHandlers Ex;
 
